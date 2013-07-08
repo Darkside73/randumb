@@ -29,7 +29,7 @@ module Randumb
         end
 
         # return first record if method was called without parameters
-        max_items ? the_scope.all : the_scope.first
+        max_items ? the_scope : the_scope.first
       end
 
 
